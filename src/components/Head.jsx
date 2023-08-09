@@ -1,7 +1,7 @@
 import Nav from "./Nav";
 import Hero from "./Hero";
 
-function Header() {
+function Head() {
   return (
     <header className="text-stone-200">
       <Nav />
@@ -10,4 +10,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Head;

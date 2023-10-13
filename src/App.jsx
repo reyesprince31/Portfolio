@@ -1,11 +1,17 @@
-import "./App.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import AppLayout from "./ui/AppLayout";
+import Error from "./ui/Error";
 
-import Header from "./components/Head";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    errorElement: <Error />,
+    element: <AppLayout />,
+  },
+]);
 
-export default function App() {
-  return (
-    <main>
-      <Header />
-    </main>
-  );
+function App() {
+  return <RouterProvider router={router} />;
 }
+
+export default App;

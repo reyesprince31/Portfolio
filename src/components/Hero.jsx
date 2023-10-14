@@ -12,11 +12,20 @@ function Hero() {
       id="home"
       className="flex min-h-screen flex-col items-center py-10 md:flex-row"
     >
-      <div className="flex h-full flex-1 items-center justify-center">
-        <img src={hero} alt="" className="h-full object-cover md:w-11/12" />
+      <div className="mr-7 flex h-full flex-1 flex-col items-center justify-center">
+        <img src={hero} alt="" className="h-full object-cover" />
+        <div className="hidden xl:block">
+          <div className="mt-4 flex h-20 w-full items-center justify-center rounded-md  ">
+            <div className="mx-6 my-6 h-16 w-16 rounded-md bg-cyan-600"></div>
+            <div className="text-5xl font-semibold text-slate-500">
+              Currently working on <span>Portfolio</span>
+            </div>
+          </div>
+        </div>
       </div>
+
       <div className="flex-1">
-        <div className="text-center md:text-left">
+        <div className="mt-8 text-center md:text-left">
           <h1 className="text-2xl font-bold leading-10 text-white md:text-5xl md:leading-normal">
             <span className="text-5xl text-cyan-600 md:text-6xl">
               Hello!

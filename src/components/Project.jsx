@@ -1,10 +1,10 @@
 // import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
+import project2 from "../assets/images/project-2.png";
+import project3 from "../assets/images/project-3.png";
+import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
-import project_person from "../assets/images/project_person1.png";
+
 import "swiper/css";
 import "swiper/css/pagination";
 // import { Pagination, Autoplay } from "swiper";
@@ -13,34 +13,33 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      name: "The Wild Oasis",
+      github_link: "https://github.com/reyesprince31/the-wild-oasis",
+      live_link: "#",
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "Books Mern",
+      github_link: "https://github.com/reyesprince31/books_mern",
+      live_link: "#",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      name: "Fast React Pizza Co.",
+      github_link: "https://github.com/reyesprince31/Pizza-React-App",
+      live_link: "https://mypizza-reactjs.netlify.app",
     },
     {
       img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+      name: "Nike Landing Page Clone",
+      github_link: "https://github.com/reyesprince31/Nike-tailwind-react",
+      live_link: "nike-tailwind-react-2jzvqxdf4-reyesprince31.vercel.app",
     },
     {
       img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
+      name: "Position Size Calculator",
+      github_link: "https://github.com/reyesprince31/Position-Size-Calculator",
+      live_link: "https://positionsize-calculator.netlify.app",
     },
   ];
   return (

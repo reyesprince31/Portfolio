@@ -2,35 +2,27 @@ function Skills() {
   const skills = [
     {
       logo: "logo-html5",
-      level: "Advance",
     },
     {
       logo: "logo-css3",
-      level: "Advance",
     },
     {
       logo: "logo-nodejs",
-      level: "Advance",
     },
     {
       logo: "logo-react",
-      level: "Intermediate",
     },
     {
-      logo: "logo-html5",
-      level: "Advance",
+      logo: "logo-python",
     },
     {
-      logo: "logo-css3",
-      level: "Advance",
+      logo: "logo-vercel",
     },
     {
-      logo: "logo-nodejs",
-      level: "Advance",
+      logo: "logo-figma",
     },
     {
-      logo: "logo-react",
-      level: "Intermediate",
+      logo: "logo-firebase",
     },
   ];
   return (
@@ -46,12 +38,11 @@ function Skills() {
               key={i}
               className="group relative rounded-xl border-2 border-cyan-600 bg-gray-900 p-4"
             >
-              <div className="flex h-32 w-32 items-center justify-center rounded-full">
-                <div className="flex h-28 w-28 items-center justify-center rounded-full bg-gray-900 text-6xl group-hover:text-cyan-600">
+              <div className="flex h-20 w-20 items-center justify-center rounded-full">
+                <div className="h-18 w-18 flex items-center justify-center rounded-full bg-gray-900 text-6xl group-hover:text-cyan-600">
                   <ion-icon name={skill.logo}></ion-icon>
                 </div>
               </div>
-              <p className="mt-3 text-xl">{skill.level}</p>
             </div>
           ))}
         </div>

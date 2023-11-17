@@ -14,7 +14,7 @@ function AppLayout() {
       <Navbar />
       <Bot />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Hireme />
       <Project />

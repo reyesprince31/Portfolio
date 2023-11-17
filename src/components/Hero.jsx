@@ -1,14 +1,16 @@
 function Hero() {
   const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
+    { icon: "logo-github", link: "https://github.com/reyesprince31" },
+    {
+      icon: "logo-facebook",
+      link: "https://www.facebook.com/realprincereyes/",
+    },
+    { icon: "logo-linkedin", link: "https://www.linkedin.com/in/reyesprince/" },
   ];
   return (
     <section
       id="home"
-      className="flex min-h-screen flex-col items-center py-10 md:flex-row"
+      className=" flex min-h-screen flex-col items-center py-10 md:flex-row"
     >
       <div className="flex h-full flex-1 flex-col pr-7 text-right ">
         <div className="hidden xl:block">
@@ -22,14 +24,18 @@ function Hero() {
         </div>
       </div>
 
-      <div className="">
-        <div className="mt-8 text-center md:text-left">
+      <div className="my-10 text-center text-5xl font-semibold text-slate-500 md:hidden">
+        <h4 className="">Fullstack Developer</h4>
+      </div>
+
+      <div>
+        <div className="text-center md:mt-8 md:text-left">
           <h1 className="text-2xl font-bold leading-10 text-white md:text-5xl md:leading-normal">
             <span className="text-5xl text-cyan-600 md:text-6xl">
               Hello!
               <br />
             </span>
-            My Name is <span>Prince Reyes</span>
+            My Name is <span className="text-cyan-600">Prince</span> Reyes
           </h1>
 
           <p className="mx-auto mt-4 w-11/12 text-justify leading-7 text-gray-400 md:mx-0">
@@ -48,7 +54,9 @@ function Hero() {
                 key={icon}
                 className="cursor-pointer text-gray-600 hover:text-white "
               >
-                <ion-icon name={icon}></ion-icon>
+                <a href={icon.link}>
+                  <ion-icon name={icon.icon}></ion-icon>
+                </a>
               </div>
             ))}
           </div>

@@ -35,12 +35,12 @@ const Project = () => {
       github_link: "https://github.com/reyesprince31/Nike-tailwind-react",
       live_link: "nike-tailwind-react-2jzvqxdf4-reyesprince31.vercel.app",
     },
-    // {
-    //   img: project5,
-    //   name: "Position Size Calculator",
-    //   github_link: "https://github.com/reyesprince31/Position-Size-Calculator",
-    //   live_link: "https://positionsize-calculator.netlify.app",
-    // },
+    {
+      img: project5,
+      name: "Position Size Calculator",
+      github_link: "https://github.com/reyesprince31/Position-Size-Calculator",
+      live_link: "https://positionsize-calculator.netlify.app",
+    },
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -58,7 +58,11 @@ const Project = () => {
             <div className="pb-2/3 relative">
               <img
                 src={project_info.img}
-                className="absolute h-full w-full object-cover"
+                className="absolute h-full w-full object-cover blur-lg"
+              />
+              <img
+                src={project_info.img}
+                className="absolute h-full w-full border-b-2 border-gray-700 object-contain shadow-xl"
               />
             </div>
             <div className="px-6 pb-6">

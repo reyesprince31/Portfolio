@@ -35,12 +35,12 @@ const Project = () => {
       github_link: "https://github.com/reyesprince31/Nike-tailwind-react",
       live_link: "nike-tailwind-react-2jzvqxdf4-reyesprince31.vercel.app",
     },
-    {
-      img: project5,
-      name: "Position Size Calculator",
-      github_link: "https://github.com/reyesprince31/Position-Size-Calculator",
-      live_link: "https://positionsize-calculator.netlify.app",
-    },
+    // {
+    //   img: project5,
+    //   name: "Position Size Calculator",
+    //   github_link: "https://github.com/reyesprince31/Position-Size-Calculator",
+    //   live_link: "https://positionsize-calculator.netlify.app",
+    // },
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -51,36 +51,61 @@ const Project = () => {
         <p className="mt-3 text-lg text-gray-400">My awesome works</p>
       </div>
       <br />
-      <div className="relative mx-auto flex max-w-6xl items-center gap-6 px-5">
-        <div className="mt-12 flex flex-wrap items-center justify-center gap-10">
-          {projects.map((project_info, i) => (
-            <div key={i}>
-              <div className="h-fit w-96 rounded-xl bg-slate-700 p-4">
-                <img src={project_info.img} alt="" className="rounded-lg" />
+
+      <div className="mx-auto w-11/12 md:w-8/12">
+        {projects.map((project_info, i) => (
+          <div key={i} className="mt-6 overflow-hidden rounded-lg bg-slate-700">
+            <div className="pb-2/3 relative">
+              <img
+                src={project_info.img}
+                className="absolute h-full w-full object-cover"
+              />
+            </div>
+            <div className="px-6 pb-6">
+              <h4 className="mt-1 truncate text-lg font-semibold leading-tight">
                 <h3 className="my-4 text-xl">{project_info.name}</h3>
-                <div className="flex gap-3">
-                  <a
-                    href={project_info.github_link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-block bg-gray-800 px-2 py-1 text-cyan-600"
-                  >
-                    Github
-                  </a>
-                  <a
-                    href={project_info.live_link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-block bg-gray-800 px-2 py-1 text-cyan-600"
-                  >
-                    Live Demo
-                  </a>
-                </div>
+              </h4>
+              <div className="flex gap-3">
+                <a
+                  href={project_info.github_link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block bg-gray-800 px-2 py-1 text-cyan-600"
+                >
+                  Github
+                </a>
+                <a
+                  href={project_info.live_link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block bg-gray-800 px-2 py-1 text-cyan-600"
+                >
+                  Live Demo
+                </a>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
+
+      {/* <div className="mt-12 flex flex-wrap items-center justify-center gap-10">
+        {projects.map((project_info, i) => (
+          <div
+            key={i}
+            className="flex w-8/12 flex-col overflow-hidden rounded-lg bg-slate-700 "
+          >
+            <div className="pb-2/6 relative">
+              <img
+                src={project_info.img}
+                alt=""
+                className="absolute h-96 w-full object-cover object-top"
+              />
+            </div>
+
+         
+          </div>
+        ))}
+      </div> */}
     </section>
   );
 };

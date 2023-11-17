@@ -22,7 +22,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="flex-1">
+      <div className="">
         <div className="mt-8 text-center md:text-left">
           <h1 className="text-2xl font-bold leading-10 text-white md:text-5xl md:leading-normal">
             <span className="text-5xl text-cyan-600 md:text-6xl">
@@ -32,7 +32,7 @@ function Hero() {
             My Name is <span>Prince Reyes</span>
           </h1>
 
-          <p className="mt-4 w-11/12 text-justify leading-7 text-gray-400">
+          <p className="mx-auto mt-4 w-11/12 text-justify leading-7 text-gray-400 md:mx-0">
             I am a dedicated Fullstack developer with a primary focus on the
             MERN stack (MongoDB, Express, React, Node). However, I am always
             eager to broaden my horizons and explore various technology stacks

@@ -15,7 +15,7 @@ const Project = () => {
       img: project1,
       name: "The Wild Oasis",
       github_link: "https://github.com/reyesprince31/the-wild-oasis",
-      live_link: "#",
+      live_link: "https://the-wildoasis-beta.netlify.app/",
     },
     {
       img: project2,

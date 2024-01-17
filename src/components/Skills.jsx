@@ -1,5 +1,3 @@
-import { RiSupabaseLine } from "react-icons/ri";
-
 function Skills() {
   const skills = [
     {

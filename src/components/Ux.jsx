@@ -54,7 +54,7 @@ function Ux() {
                   However, after conducting research, I discovered that users
                   also wanted features for tracking their health and accessing
                   medical information. This insight helped shape the design of
-                  the app and ensure that it meets users' needs and preferences.
+                  the app and ensure that it meets users needs and preferences.
                 </p>
               </div>
             </div>
@@ -75,37 +75,37 @@ function Ux() {
           <div className="grid-flow-row-dense grid-cols-4 items-center gap-4 space-y-4  md:grid">
             <div className="col-span-2 row-span-2 ">
               <img
-                src="/src/assets/images/ux-1.png"
+                src="assets/images/ux-1.png"
                 className=" transition duration-300 ease-in-out hover:scale-125"
               />
             </div>
             <div className="col-span-2">
               <img
-                src="/src/assets/images/ux-2.png"
+                src="assets/images/ux-2.png"
                 className="transition duration-300 ease-in-out hover:scale-150"
               />
             </div>
             <div className="">
               <img
-                src="/src/assets/images/ux-3.png"
+                src="assets/images/ux-3.png"
                 className="transition duration-300 ease-in-out hover:scale-150"
               />
             </div>
             <div className="col-span-2 row-span-2">
               <img
-                src="/src/assets/images/ux-4.png"
+                src="assets/images/ux-4.png"
                 className="transition duration-300 ease-in-out hover:scale-125"
               />
             </div>
             <div className="col-span-2">
               <img
-                src="/src/assets/images/ux-5.png"
+                src="assets/images/ux-5.png"
                 className="transition duration-300 ease-in-out hover:scale-125"
               />
             </div>
             <div className="">
               <img
-                src="/src/assets/images/ux-6.png"
+                src="assets/images/ux-6.png"
                 className="transition duration-300 ease-in-out hover:scale-150"
               />
             </div>

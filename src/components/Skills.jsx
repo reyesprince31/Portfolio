@@ -1,3 +1,5 @@
+import { RiSupabaseLine } from "react-icons/ri";
+
 function Skills() {
   const skills = [
     {
@@ -26,10 +28,10 @@ function Skills() {
     },
   ];
   return (
-    <section id="skills" className="relative bg-gray-800 py-10">
+    <section id="skills" className="relative bg-slate-800 py-10">
       <div className="mt-8 text-center text-gray-100">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-cyan-600">Skills</span>
+          My <span className="text-slate-400">Skills</span>
         </h3>
         <p className="mt-3 text-lg text-gray-400">My knowledge</p>
         <div className="mt-12 flex flex-wrap items-center justify-center gap-10">

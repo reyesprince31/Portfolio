@@ -8,30 +8,34 @@ function Contact() {
     },
   ];
   return (
-    <section id="contact" className="px-3 py-10 text-white">
+    <section id="contact" className="px-3 py-10">
       <div className="mt-8 text-center">
-        <h3 className="text-4xl font-semibold">
-          Contact <span className="text-cyan-600">Me</span>
-        </h3>
+        <h3 className="text-4xl font-semibold">Contact Me</h3>
         <p className="mt-3 text-lg text-gray-400">Get in touch</p>
 
         <div
           className="mx-auto mt-16 flex max-w-5xl
-         flex-col gap-6 rounded-lg bg-gray-800 p-2 md:flex-row md:p-6"
+         flex-col gap-6 rounded-lg bg-gray-800 p-2 text-white md:flex-row md:p-6"
         >
           <form className="flex flex-1 flex-col gap-5">
-            <input className="px-2" type="text" placeholder="Your Name" />
             <input
-              className="px-2"
+              className="rounded-lg p-2 "
+              type="text"
+              placeholder="Your Name"
+            />
+            <input
+              className="rounded-lg p-2"
               type="Email"
               placeholder="Your Email Address"
             />
             <textarea
-              className="px-2"
+              className="rounded-lg p-2"
               placeholder="Your Message"
               rows={10}
             ></textarea>
-            <button className="btn-primary w-fit">Send Message</button>
+            <button className="w-fit rounded-lg bg-slate-600 px-4 py-3 hover:bg-slate-900">
+              Send Message
+            </button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (

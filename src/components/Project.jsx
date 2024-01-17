@@ -1,6 +1,6 @@
 // import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.png";
+import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
@@ -19,8 +19,8 @@ const Project = () => {
     },
     {
       img: project2,
-      name: "Books Mern",
-      github_link: "https://github.com/reyesprince31/books_mern",
+      name: "ATVS Warship Ecommerce",
+      github_link: "https://github.com/reyesprince31/atvs_supabase_ecom",
       live_link: "#",
     },
     {
@@ -43,19 +43,22 @@ const Project = () => {
     },
   ];
   return (
-    <section id="projects" className="py-10 text-white">
+    <section id="react.js" className="max-container py-10 text-white">
       <div className="text-center">
-        <h3 className="text-4xl font-semibold">
-          My <span className="text-cyan-600">Projects</span>
+        <h3 className="text-4xl font-semibold text-gray-900">
+          React.Js Project
         </h3>
         <p className="mt-3 text-lg text-gray-400">My awesome works</p>
       </div>
       <br />
 
-      <div className="mx-auto w-11/12 md:w-8/12">
+      <div className="flex w-full flex-wrap justify-center gap-4">
         {projects.map((project_info, i) => (
-          <div key={i} className="mt-6 overflow-hidden rounded-lg bg-slate-700">
-            <div className="pb-2/3 relative">
+          <div
+            key={i}
+            className="mt-6 w-[350px] overflow-hidden rounded-lg bg-slate-700 transition ease-in-out hover:z-40 hover:scale-125 hover:shadow-2xl"
+          >
+            <div className="relative pb-2/3">
               <img
                 src={project_info.img}
                 className="absolute h-full w-full object-cover blur-lg"
@@ -66,15 +69,15 @@ const Project = () => {
               />
             </div>
             <div className="px-6 pb-6">
-              <h4 className="mt-1 truncate text-lg font-semibold leading-tight">
-                <h3 className="my-4 text-xl">{project_info.name}</h3>
-              </h4>
-              <div className="flex gap-3">
+              <h3 className="mt-1 truncate text-lg font-semibold leading-tight">
+                <span className="my-4 text-xl">{project_info.name}</span>
+              </h3>
+              <div className="mt-4 flex gap-3">
                 <a
                   href={project_info.github_link}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block bg-gray-800 px-2 py-1 text-cyan-600"
+                  className="inline-block rounded-lg bg-gray-800 px-2 py-1 text-cyan-600"
                 >
                   Github
                 </a>
@@ -82,7 +85,7 @@ const Project = () => {
                   href={project_info.live_link}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block bg-gray-800 px-2 py-1 text-cyan-600"
+                  className="inline-block rounded-lg bg-gray-800 px-2 py-1 text-cyan-600"
                 >
                   Live Demo
                 </a>

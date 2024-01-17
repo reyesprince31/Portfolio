@@ -7,20 +7,24 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Bot from "../components/Bot";
+import Ux from "../components/Ux";
 
 function AppLayout() {
   return (
-    <div>
+    <main className="relative">
       <Navbar />
-      <Bot />
-      <Hero />
+      {/* <Bot /> */}
+      <section>
+        <Hero />
+      </section>
       {/* <About /> */}
-      <Skills />
-      <Hireme />
+      {/* <Skills /> */}
+      {/* <Hireme /> */}
+      <Ux />
       <Project />
       <Contact />
       <Footer />
-    </div>
+    </main>
   );
 }
 

@@ -27,7 +27,14 @@ function Hero() {
         </h3>
         <p className="font-montserrat text-coral-red text-md mt-3 leading-relaxed text-gray-500">
           Hi, I&apos;m{" "}
-          <span className="font-semibold text-slate-600">Prince Reyes</span>
+          <span className="font-semibold text-slate-600">Prince Reyes</span>{" "}
+          Highly skilled Front-end wanting to be a Full Stack Developer.
+          Well-versed in database management, including SQL and NoSQL
+          technologies. Demonstrated capabilities in UX Design and IT
+          Management. Eager to contribute my mid-level expertise to dynamic
+          projects, while remaining open to continuous learning and skill
+          enhancement. Committed to delivering high-quality solutions and
+          adapting to evolving industry trends.
         </p>
         <div className="mt-8 flex w-full flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div className=" flex items-center gap-5 text-3xl sm:justify-center md:justify-start">

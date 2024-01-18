@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "about-bg": "url('assets/images/hah.png')",
+        "about-bg": "url('/assets/images/hah.png')",
       },
       fontFamily: {
         Poppins: "Poppins",

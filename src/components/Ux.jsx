@@ -3,8 +3,8 @@ import { TbAlertTriangle, TbTargetArrow } from "react-icons/tb";
 function Ux() {
   return (
     <>
-      <section id="ux" className="flex w-full  text-white sm:p-12">
-        <div className="max-container px-4 py-4">
+      <section id="ux" className="flex w-full  sm:p-12">
+        <div className="max-container py-4">
           <div className="text-center">
             <h3 className="text-4xl font-semibold text-slate-900">
               <span className="font-bold">UX</span> Portfolio
@@ -12,24 +12,24 @@ function Ux() {
           </div>
 
           <div className="">
-            <div className="mt-8 rounded-lg bg-slate-900 p-2 md:p-8">
-              <div className="lg:flex lg:items-center lg:gap-4">
+            <div className="mt-8 rounded-lg md:p-8">
+              <div className="lg:flex lg:items-center lg:gap-8">
                 <div className="mx-auto mt-4 w-10/12">
                   <img
                     src="assets/images/Mockup.png"
                     alt="mockup"
-                    className="rounded-lg"
+                    className="rounded-lg shadow-lg shadow-slate-900"
                   />
                   <p className="mt-4 text-center text-gray-400">
                     Mobile Mockup
                   </p>
                 </div>
-                <div className="mt-8 flex flex-col gap-6 lg:mt-0">
+                <div className="mx-auto mt-8 flex w-10/12 flex-col gap-6 lg:mt-0">
                   <div>
                     <h2 className="text:xl text-center font-bold sm:text-start sm:text-3xl">
                       Design an appointment calendar app for an OB-Gyn Clinic
                     </h2>
-                    <p className="text-md mt-4 rounded-lg bg-slate-800 px-4 py-2 text-gray-200">
+                    <p className="text-md mt-4 rounded-lg bg-slate-800 px-4 py-2 text-gray-200 shadow-md shadow-slate-900">
                       The appointment calendar app designed for an OB-Gyn clinic
                       is aimed at pregnant or soon-to-be pregnant users who need
                       an easy and efficient way to schedule and manage their
@@ -40,7 +40,7 @@ function Ux() {
                     </p>
                   </div>
                   <div className="space-y-4 lg:flex lg:gap-4 lg:space-y-0">
-                    <div className="flex items-center gap-4 rounded-lg bg-red-400 px-4 py-2">
+                    <div className="flex items-center gap-4 rounded-lg bg-red-400 px-4 py-2 shadow-md shadow-slate-900">
                       <span className=" text-3xl">
                         <TbAlertTriangle />
                       </span>
@@ -56,7 +56,7 @@ function Ux() {
                         </p>
                       </div>
                     </div>
-                    <div className="flex items-center gap-4 rounded-lg bg-green-500 px-4 py-2">
+                    <div className="flex items-center gap-4 rounded-lg bg-green-500 px-4 py-2 shadow-md shadow-slate-900">
                       <span className=" text-3xl">
                         <TbTargetArrow />
                       </span>
@@ -70,11 +70,11 @@ function Ux() {
                       </div>
                     </div>
                   </div>
-                  <div className="rounded-lg bg-slate-800 px-4 py-2">
-                    <span className="text-xl font-semibold">
+                  <div className="rounded-lg bg-slate-800 px-4 py-2 shadow-md shadow-slate-900">
+                    <span className="text-xl font-semibold text-gray-200">
                       Summary of User research:
                     </span>
-                    <p className="text-md mt-2 leading-normal text-gray-300">
+                    <p className="text-md mt-2 leading-normal text-gray-400">
                       For my user research, we conducted interviews and surveys
                       to understand the needs and preferences of potential users
                       for an appointment calendar app for an OB-Gyn clinic.
@@ -94,16 +94,13 @@ function Ux() {
               </div>
             </div>
           </div>
-          <div className="mt-8 rounded-lg bg-slate-900 p-8">
-            <p>Upcomming UX Projects..</p>
-          </div>
         </div>
       </section>
       <section className="max-container mt-4 p-4">
         <h2 className="text-center text-3xl font-bold">
           Mockups, Wireframes, Prototypes
         </h2>
-        <div className="mt-8 rounded-lg bg-slate-800 p-2">
+        <div className="mt-8 rounded-lg bg-slate-800 p-2 shadow-lg shadow-slate-900">
           <h3 className="my-4 text-2xl text-gray-300">
             Design an appointment calendar app for an OB-Gyn Clinic
           </h3>
@@ -147,7 +144,7 @@ function Ux() {
           </div>
         </div>
       </section>
-      <section className="my-8 h-80 bg-slate-800 p-4 text-gray-200 md:h-40">
+      <section className="my-8 h-80 bg-slate-800 p-4 text-gray-200 shadow-lg shadow-slate-900 md:h-40">
         <div className="text-center">
           <h1 className="text-3xl font-bold">UI/UX Project Links</h1>
           <div className="text-gray-40 mt-8 flex flex-col gap-8 text-xl font-bold md:flex-row md:items-baseline md:justify-center md:gap-40">

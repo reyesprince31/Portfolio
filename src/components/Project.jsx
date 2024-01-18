@@ -43,7 +43,7 @@ const Project = () => {
     },
   ];
   return (
-    <section id="react.js" className="max-container py-10 text-white">
+    <section id="react.js" className="max-container py-10 text-white ">
       <div className="text-center">
         <h3 className="text-4xl font-semibold text-gray-900">
           React.Js Project
@@ -52,11 +52,11 @@ const Project = () => {
       </div>
       <br />
 
-      <div className="flex w-full flex-wrap justify-center gap-4">
+      <div className="flex w-full flex-wrap justify-center gap-4 ">
         {projects.map((project_info, i) => (
           <div
             key={i}
-            className="mt-6 w-[350px] overflow-hidden rounded-lg bg-slate-700 transition ease-in-out hover:z-40 hover:scale-125 hover:shadow-2xl"
+            className="mt-6 w-[350px] overflow-hidden rounded-lg bg-slate-700 shadow-lg shadow-slate-900 transition ease-in-out hover:z-40 hover:scale-125 hover:shadow-2xl"
           >
             <div className="relative pb-2/3">
               <img

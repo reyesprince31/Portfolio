@@ -2,7 +2,10 @@
 
 function About() {
   return (
-    <section id="about" className="bg-about-bg py-10 text-white">
+    <section
+      id="about"
+      className="bg-about-bg bg-cover py-10 text-white shadow-lg shadow-slate-700"
+    >
       <div className="mt-8 text-center">
         <h3 className="text-4xl font-semibold">
           About <span className="text-slate-500">Prince</span>
@@ -13,10 +16,10 @@ function About() {
             alt="image"
             className="mx-auto w-[300px] rounded-lg"
           />
-          <div className="rounded-lg bg-slate-900 p-2 md:flex md:items-center md:justify-center">
+          <div className=" p-2 shadow-2xl md:flex md:items-center md:justify-center">
             <div className="my-3">
               <p className="mx-auto w-11/12 text-justify leading-7">
-                <p className="font-montserrat text-coral-red text-md mt-3 leading-relaxed text-gray-200">
+                <p className="font-montserrat text-coral-red text-md mt-3 rounded-lg bg-slate-900 p-4 leading-relaxed text-gray-200">
                   Prince is a seasoned Front End Developer with extensive
                   experience, skillfully merging the entrepreneurial mindset of
                   a business owner with a strong tech background. Highly
@@ -25,7 +28,7 @@ function About() {
                   integration to elevate functionality and employs TailwindCSS
                   for creating visually appealing and responsive designs.
                 </p>
-                <p className="font-montserrat text-coral-red text-md mt-4 leading-relaxed text-gray-200">
+                <p className="font-montserrat text-coral-red text-md mt-4 rounded-lg bg-slate-900 p-4 leading-relaxed text-gray-200">
                   Prince possesses a keen eye for design, coupled with
                   proficiency in Figma and Adobe Illustrator, complementing a
                   solid foundation in UI/UX principles. Enthusiastic about

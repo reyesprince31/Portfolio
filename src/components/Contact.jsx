@@ -15,7 +15,7 @@ function Contact() {
 
         <div
           className="mx-auto mt-16 flex max-w-5xl
-         flex-col gap-6 rounded-lg bg-gray-800 p-2 text-white md:flex-row md:p-6"
+         flex-col gap-6 rounded-lg bg-gray-800 p-2 text-white shadow-lg shadow-slate-900 md:flex-row md:p-6"
         >
           <form className="flex flex-1 flex-col gap-5">
             <input

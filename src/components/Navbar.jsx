@@ -20,8 +20,8 @@ function Navbar() {
   const navLinks = (
     <div className={`sm:flex ${!sticky && "text-white"}`}>
       <NavLink sticky={sticky} text="home" />
+      <NavLink sticky={sticky} text="about" />
       <NavLink sticky={sticky} text="ux" />
-      {/* <NavLink sticky={sticky} text="skills" /> */}
       <NavLink sticky={sticky} text="react.js" />
       <NavLink sticky={sticky} text="contact" />
     </div>

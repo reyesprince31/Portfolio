@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-// import About from "../components/About";
+import About from "../components/About";
 // import Skills from "../components/Skills";
 import Project from "../components/Project";
 // import Hireme from "../components/Hireme";
@@ -14,10 +14,10 @@ function AppLayout() {
     <main className="relative">
       <Navbar />
       {/* <Bot /> */}
-      <section>
-        <Hero />
-      </section>
-      {/* <About /> */}
+
+      <Hero />
+
+      <About />
       {/* <Skills /> */}
       {/* <Hireme /> */}
       <Ux />

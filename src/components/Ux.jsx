@@ -1,61 +1,96 @@
+import { TbAlertTriangle, TbTargetArrow } from "react-icons/tb";
+
 function Ux() {
   return (
     <>
-      <section id="ux" className="flex w-full bg-slate-800 text-white sm:p-12">
+      <section id="ux" className="flex w-full  text-white sm:p-12">
         <div className="max-container px-4 py-4">
           <div className="text-center">
-            <h3 className="text-4xl font-semibold">
-              <span className="font-bold text-slate-400">UX</span> Portfolio
+            <h3 className="text-4xl font-semibold text-slate-900">
+              <span className="font-bold">UX</span> Portfolio
             </h3>
           </div>
 
-          <div>
-            <div className="mt-8 rounded-lg bg-slate-900 p-2">
-              <p className="text-sm text-gray-400">( Unfinished Project )</p>
-              <h2 className="text-3xl font-bold">
-                Design an appointment calendar app for an OB-Gyn Clinic
-              </h2>
-              <p className="mt-4 text-sm text-gray-400">
-                The appointment calendar app designed for an OB-Gyn clinic is
-                aimed at pregnant or soon-to-be pregnant users who need an easy
-                and efficient way to schedule and manage their medical
-                appointments. The app will offer features such as appointment
-                reminders, health tracking, and access to medical information,
-                all in a user-friendly and intuitive design.
-              </p>
-              <div className="mt-8 space-y-6 sm:flex sm:gap-20 sm:space-y-0">
-                <div>
-                  <span className="text-xl font-semibold">The problem:</span>
-                  <p className="text-md text-gray-400">
-                    To make it easier and more convenient for pregnant or
-                    soon-to-be pregnant users to schedule and manage their
-                    medical appointments.
+          <div className="">
+            <div className="mt-8 rounded-lg bg-slate-900 p-2 md:p-8">
+              <div className="lg:flex lg:items-center lg:gap-4">
+                <div className="mx-auto mt-4 w-10/12">
+                  <img
+                    src="assets/images/Mockup.png"
+                    alt="mockup"
+                    className="rounded-lg"
+                  />
+                  <p className="mt-4 text-center text-gray-400">
+                    Mobile Mockup
                   </p>
                 </div>
-                <div>
-                  <span className="text-xl font-semibold">The goal:</span>
-                  <p className="text-md text-gray-400">
-                    To create an appointment calendar app that would reduce
-                    waiting and queuing times for customers seeking medical
-                    appointments at the OB-Gyn clinic.
+                <div className="mt-8 flex flex-col gap-6 lg:mt-0">
+                  <div>
+                    <h2 className="text:xl text-center font-bold sm:text-start sm:text-3xl">
+                      Design an appointment calendar app for an OB-Gyn Clinic
+                    </h2>
+                    <p className="text-md mt-4 rounded-lg bg-slate-800 px-4 py-2 text-gray-200">
+                      The appointment calendar app designed for an OB-Gyn clinic
+                      is aimed at pregnant or soon-to-be pregnant users who need
+                      an easy and efficient way to schedule and manage their
+                      medical appointments. The app will offer features such as
+                      appointment reminders, health tracking, and access to
+                      medical information, all in a user-friendly and intuitive
+                      design.
+                    </p>
+                  </div>
+                  <div className="space-y-4 lg:flex lg:gap-4 lg:space-y-0">
+                    <div className="flex items-center gap-4 rounded-lg bg-red-400 px-4 py-2">
+                      <span className=" text-3xl">
+                        <TbAlertTriangle />
+                      </span>
+
+                      <div className="border-l-[.75px] border-l-slate-300 pl-4">
+                        <span className="text-xl font-semibold">
+                          The problem:
+                        </span>
+                        <p className="text-md text-gray-800">
+                          To make it easier and more convenient for pregnant or
+                          soon-to-be pregnant users to schedule and manage their
+                          medical appointments.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-4 rounded-lg bg-green-500 px-4 py-2">
+                      <span className=" text-3xl">
+                        <TbTargetArrow />
+                      </span>
+                      <div className="border-l-[.75px] border-l-slate-300 pl-4">
+                        <span className="text-xl font-semibold">The goal:</span>
+                        <p className="text-md text-gray-600">
+                          To create an appointment calendar app that would
+                          reduce waiting and queuing times for customers seeking
+                          medical appointments at the OB-Gyn clinic.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="rounded-lg bg-slate-800 px-4 py-2">
+                    <span className="text-xl font-semibold">
+                      Summary of User research:
+                    </span>
+                    <p className="text-md mt-2 leading-normal text-gray-300">
+                      For my user research, we conducted interviews and surveys
+                      to understand the needs and preferences of potential users
+                      for an appointment calendar app for an OB-Gyn clinic.
+                      Before conducting research, I assumed that users would
+                      prioritize features such as appointment reminders and easy
+                      scheduling. However, after conducting research, I
+                      discovered that users also wanted features for tracking
+                      their health and accessing medical information. This
+                      insight helped shape the design of the app and ensure that
+                      it meets users needs and preferences.
+                    </p>
+                  </div>
+                  <p className="text-right text-xs text-gray-400">
+                    ( Unfinished Project )
                   </p>
                 </div>
-              </div>
-              <div className="mt-8">
-                <span className="text-xl font-semibold">
-                  Summary of User research:
-                </span>
-                <p className="text-md text-gray-400">
-                  For my user research, we conducted interviews and surveys to
-                  understand the needs and preferences of potential users for an
-                  appointment calendar app for an OB-Gyn clinic. Before
-                  conducting research, I assumed that users would prioritize
-                  features such as appointment reminders and easy scheduling.
-                  However, after conducting research, I discovered that users
-                  also wanted features for tracking their health and accessing
-                  medical information. This insight helped shape the design of
-                  the app and ensure that it meets users needs and preferences.
-                </p>
               </div>
             </div>
           </div>
@@ -64,7 +99,7 @@ function Ux() {
           </div>
         </div>
       </section>
-      <section className="max-container mt-12 p-4">
+      <section className="max-container mt-4 p-4">
         <h2 className="text-center text-3xl font-bold">
           Mockups, Wireframes, Prototypes
         </h2>

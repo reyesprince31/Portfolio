@@ -16,9 +16,9 @@ function Hero() {
   return (
     <section
       id="home"
-      className="max-container flex min-h-screen w-full flex-col items-center justify-between gap-10 px-4 py-10 md:flex-row xl:flex-row"
+      className="max-container mt-20 flex min-h-screen w-full flex-col-reverse items-center justify-between gap-10 px-4 py-10 md:flex-row lg:mt-0 xl:flex-row"
     >
-      <div className=" relative flex w-full flex-col items-start justify-center pt-28 md:pt-0 xl:w-3/5">
+      <div className=" relative flex w-full flex-col items-start justify-center md:pt-0 xl:w-3/5">
         <h1 className="font-palanquin mt- mt-3 text-6xl font-bold">
           Front-End Developer
         </h1>
@@ -27,19 +27,7 @@ function Hero() {
         </h3>
         <p className="font-montserrat text-coral-red text-md mt-3 leading-relaxed text-gray-500">
           Hi, I&apos;m{" "}
-          <span className="font-semibold text-slate-600">Prince Reyes</span>,
-          Driven Front End Developer with years of experience, seamlessly
-          blending the entrepreneurial spirit of a business owner with tech
-          expertise. Proficient in crafting user-friendly web applications using
-          React.js, Next.js, and Node.js.
-        </p>
-        <p className="font-montserrat text-coral-red text-md mt-3 leading-relaxed text-gray-500">
-          Adept at API integration to enhance functionality. Utilizes
-          TailwindCSS to create visually appealing and responsive designs.
-          Demonstrates a keen eye for design with proficiency in Figma and Adobe
-          Illustrator, complementing a solid foundation in UI/UX principles.
-          Excited to collaborate and contribute to building exceptional web
-          applications, pixel by pixel!
+          <span className="font-semibold text-slate-600">Prince Reyes</span>
         </p>
         <div className="mt-8 flex w-full flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div className=" flex items-center gap-5 text-3xl sm:justify-center md:justify-start">

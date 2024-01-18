@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "about-bg": "url('assets/images/hah.png')",
+      },
       fontFamily: {
         Poppins: "Poppins",
       },
